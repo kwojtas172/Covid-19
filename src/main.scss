@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(58, 90, 128);
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+div {
+    margin: 0 auto;
+}
+
+.container_btns {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+        background-color: rgb(105, 212, 146);
+        border: none;
+        border-radius: 5px;
+        margin: 5px;
+        padding: 5px;
+        color: rgb(23, 55, 92);
+        font-weight: 700;
+        cursor: pointer;
+        &:hover {
+            background-color: rgb(71, 139, 97);
+        }
+
+    }
+}
+
+h1 {
+    color: blue;
+}
+
+th {
+    border: 3px solid rgb(43, 69, 90);
+    background-color: rgb(109, 90, 27);
+    padding: 5px;
+}
+
+tr, td {
+    border: 3px solid rgb(30, 65, 50);
+    padding: 5px;
+    margin: 5px;
+    color: rgb(175, 192, 212);
+    font-weight: 700;
+    
+}
+
+.poland td {
+    color: rgb(161, 81, 81);
+}
