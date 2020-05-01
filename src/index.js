@@ -25,7 +25,6 @@ class PrintInfo extends React.Component {
     componentDidMount() {
         fetch(urlAllCountriesInfo).then(res => res.json()).then(json => {
             json.splice(0, 1);
-            // json.splice(json.length - 7, 7);
             let sortArr = json.sort((a, b) => {
                 return b.cases - a.cases
             })
